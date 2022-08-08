@@ -25,6 +25,7 @@ kind: Service
 metadata:
   name: spring-boot-svc
 spec:
+  type: NodePort
   selector:
     app: demo-app
   ports:
@@ -32,5 +33,5 @@ spec:
       port: 8081
       targetPort: 8081
       nodePort: 30001
-  type: NodPort
+  
   
