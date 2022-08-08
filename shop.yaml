@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: shop
-        image: 338476772910.dkr.ecr.ap-south-1.amazonaws.com/rajeshecr:latest
+        image: venky3036/food:eccom
         imagePullPolicy: Always
         ports:
         - containerPort: 80
